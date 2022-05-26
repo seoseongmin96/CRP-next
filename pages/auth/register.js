@@ -44,4 +44,4 @@ export default connect(
   { 
     userRegister
   }
-)(RegisterPage);*/
+)(RegisterPage);*/   
