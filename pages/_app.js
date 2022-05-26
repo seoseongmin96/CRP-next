@@ -10,7 +10,7 @@ const App = ({ Component, pageProps }) => {
   return  <>
    <Header/>
   <Nav/><div className='AppMinHeight'>
-  <Component />
+  <Component/>
   </div>
   <Footer/>
   </>

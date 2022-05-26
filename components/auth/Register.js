@@ -10,6 +10,7 @@ import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -47,10 +48,10 @@ export function Register( { onChange, onSubmit } ){
                             <Grid container spacing={2}>
                                 <Grid item xs={6} sm={6}>
                                     <TextField
-                                        name="userid"
+                                        name="username"
                                         required={true}
                                         fullWidth={true}
-                                        id="userid"
+                                        id="username"
                                         label="사용자 ID"
                                         onChange={onChange}
                                         />
@@ -89,37 +90,9 @@ export function Register( { onChange, onSubmit } ){
                                         />
                                 </Grid>
 
-                                <Grid item xs={12}>
-                                    <TextField
-                                        required
-                                        fullWidth
-                                        id="phone"
-                                        label="폰번호"
-                                        name="phone"
-                                        onChange={onChange}
-                                        />
-                                </Grid>
-                                <Grid item xs={12}>
-                                    <TextField
-                                        required
-                                        fullWidth
-                                        id="birth"
-                                        label="생년월일"
-                                        name="birth"
-                                        onChange={onChange}
-                                        />
-                                </Grid>
-                                <Grid item xs={12}>
-                                    <TextField
-                                        required
-                                        fullWidth
-                                        id="address"
-                                        label="주소"
-                                        name="address"
-                                        onChange={onChange}
-                                        />
-                                </Grid>
-
+                                
+                               
+                               
                                 <Grid item xs={12}>
                                     <FormControlLabel
                                         control={<Checkbox value = "allowExtraEmails" color = "primary" />}

@@ -9,4 +9,5 @@ export * from "./basic/Counter"
 export * from "./auth/Login"
 export * from "./auth/Register"
 export * from "./Home"
-export * from './user/Profile'
+export * from './auth/Profile'
+
